@@ -1,0 +1,10 @@
+MVC
+
+M = Model
+V = View
+C = Controller
+
+/contato
+    Contato Controller => Controlador geral. Podemos executar o modelo e a view.
+    Contato View => Responsável por renderizar a página.
+    Contato Model => Onde tem todas as funções necessárias.
