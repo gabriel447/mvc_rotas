@@ -1,5 +1,8 @@
 <?php
 
+define('INCLUDE_PATH', 'http://localhost/mvc_rotas/');
+define('INCLUDE_PATH_FULL', 'http://localhost/mvc_rotas/Views/pages/');
+
 class Application
 {
 

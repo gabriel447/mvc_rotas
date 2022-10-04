@@ -3,8 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Título</title>
+    <title><?php echo self::titulo ?></title>
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH_FULL ?>css/style.css" type="text/css">
 </head>
 
 <body>
-    <h1>Header</h1>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>Danki Code</h2>
+            </div>
+            <nav class="menu">
+                <?php
+
+                foreach ($this->menuItems as $key => $value) {
+                    echo '<a href="' . INCLUDE_PATH . strtolower($value) . '">' . $value . '</a>';
+                }
+
+                ?>
+            </nav>
+        </div>
+    </header>

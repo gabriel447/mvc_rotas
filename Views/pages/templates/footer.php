@@ -1,4 +1,6 @@
-<h1>Footer</h1>
+<footer>
+    <p>Todos os direitos reservados</p>
+</footer>
 </body>
 
 </html>
