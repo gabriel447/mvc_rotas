@@ -2,10 +2,15 @@
 
 namespace Controllers;
 
-class ContatoController
+class ContatoController extends Controller
 {
+    public function __construct()
+    {
+        $this->view = new \Views\ContatoView('contato');
+    }
+
     public function executar()
     {
-        echo '<h1>Pagina Contato!</h1>';
+        $this->view->render();
     }
 }
